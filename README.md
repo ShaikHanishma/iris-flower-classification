@@ -57,8 +57,44 @@ We use the built-in Iris dataset from sklearn.
 
 ## 📊 Results
 
+
+## 📊 Output
+
+### Dataset Preview
+   sepal length (cm)  sepal width (cm)  petal length (cm)  petal width (cm)  target
+0                5.1               3.5                1.4               0.2       0
+1                4.9               3.0                1.4               0.2       0
+2                4.7               3.2                1.3               0.2       0
+3                4.6               3.1                1.5               0.2       0
+4                5.0               3.6                1.4               0.2       0
+
+
 - ✅ Accuracy: ~95% - 100% (depends on split)
 - ✅ Model performs very well on small dataset
 - ✅ Correct classification of most test samples
+
+Model Evaluation
+Accuracy: 1.0
+
+📌 Confusion Matrix
+[[10  0  0]
+ [ 0  9  0]
+ [ 0  0 11]]
+ 
+📌 Classification Report
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00        10
+           1       1.00      1.00      1.00         9
+           2       1.00      1.00      1.00        11
+
+    accuracy                           1.00        30
+
+
+    
+🌸 Final Prediction
+Predicted Flower: setosa
+
+
 
 

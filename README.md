@@ -61,26 +61,4 @@ We use the built-in Iris dataset from sklearn.
 - ✅ Model performs very well on small dataset
 - ✅ Correct classification of most test samples
 
----
 
-## 📷 Screenshots
-
-### 📌 Dataset Preview
-(Add screenshot of df.head())
-
-### 📌 Pairplot Visualization
-(Add seaborn pairplot image)
-
-### 📌 Confusion Matrix
-(Add confusion matrix output image)
-
-### 📌 Prediction Output
-(Add terminal output screenshot)
-
----
-
-## 🚀 How to Run the Project
-
-1. Clone the repository
-```bash
-git clone https://github.com/your-username/iris-flower-classification.git
